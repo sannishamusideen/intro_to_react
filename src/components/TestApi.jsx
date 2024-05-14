@@ -27,4 +27,7 @@ let Test = styled.div`
 img {
     width: 100px
 }
+.each_event{
+  margin-top: 50px;
+}
 `;
