@@ -6,7 +6,7 @@ import styled from "styled-components";
 const TestApi = () => {
   return (
     <Test>
-      <div className="container">
+      <div className="container fllex">
         {TestTeams.map((item, index) => (
           <div className="each_event">
             <img src={Cat} alt="" />
@@ -23,9 +23,8 @@ const TestApi = () => {
 export default TestApi;
 
 let Test = styled.div`
-
 img {
-    width: 100px
+    width: 200px;
 }
 .each_event{
   margin-top: 50px;
